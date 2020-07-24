@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    
+</head>
+<style>
+ body{
+    background-image: url("images/todo.jpg");
+    text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+li{
+    background-color: white;
+   
+    
+}
+.btn{
+    background-color: lightsalmon;
+    margin-left: 50px;
+    border-radius: 2px;
+   
+   
+    
+}
+.btn1{
+    background-color: lightgreen;
+    margin-left: 10px;
+    border-radius: 2px;
+    
+}
+
+</style>
+
+<body >
+  <div class="main">
+    <div>
+        <input type="text" placeholder="Enter To-Do" name="" id="todo-list">
+        <button onclick="addTodo()">Add Item</button>
+        <button onclick="delete_all()">Delete All</button>
+
+    </div>
+
+    <div>
+        <ul id="list">
+
+        </ul>
+    </div>
+
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
